@@ -1,5 +1,3 @@
-before_install:
-- bash -e ${TRAVIS_BUILD_DIR}/.travis.yml.before_install
 install:
 - bash -e ${TRAVIS_BUILD_DIR}/.travis.yml.install
 script:
